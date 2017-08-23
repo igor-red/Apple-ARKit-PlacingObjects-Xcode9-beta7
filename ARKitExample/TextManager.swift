@@ -137,8 +137,8 @@ class TextManager {
 				case .excessiveMotion: message += "Try slowing down your movement, or reset the session."
 				case .insufficientFeatures: message += "Try pointing at a flat surface, or reset the session."
                 case .initializing: message += "Try moving the camera more, or reset the session."
-                case .none:
-                    break
+                //case .none:
+                //    break
 				}
 			case .normal: break
 			}
